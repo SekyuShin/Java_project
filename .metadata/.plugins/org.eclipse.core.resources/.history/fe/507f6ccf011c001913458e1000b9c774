@@ -1,0 +1,28 @@
+package ex;
+
+class SubCal2 extends cal {
+	public void sum() { //overriding sum() method
+		System.out.println("실행 결과는 :"+(super.left+super.right));
+	}
+	public void sub() {
+		System.out.println(super.left-super.right);
+	}
+	
+}
+
+public class ex8_overriding1 {
+	/*
+	 * 오버라이딩 상속과 깊은 연관이 있다.
+	 * 상속은 부모클래스의 변수나 메소드를 자식클래스가 사용할수 있고, 자식클래스는 변수나 메소드를 추가할수 있다.
+	 * 이때, 부모 클래스의 메소드를 바꿀 필요가 있을때, 재정의를 할수 있다.
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SubCal2 c = new SubCal2();
+		c.insert(3,5);
+		c.sum();
+		c.sub();
+	}
+
+}

@@ -1,0 +1,10 @@
+package ex;
+
+public class ex7_constructor2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 자바는 생성자를 만들면, default생성자를 만들어 주지 않는다.
+	}
+
+}

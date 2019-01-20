@@ -10,13 +10,13 @@ public class ex3_classMember_instanceMember {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Calculator c1 = new Calculator();
+		Calculator1 c1 = new Calculator1();
 		System.out.println(c1.PI);
 		
-		Calculator c2 = new Calculator();
+		Calculator1 c2 = new Calculator1();
 		System.out.println(c2.PI);
 		
-		System.out.println(Calculator.PI); // 클래스 변수는 정의 없이 사용 가능
+		System.out.println(Calculator1.PI); // 클래스 변수는 정의 없이 사용 가능
 		
 		
 		
@@ -47,7 +47,7 @@ public class ex3_classMember_instanceMember {
 
 }
 
-class Calculator {
+class Calculator1 {
 	static double PI = 3.14; 	//클래스 변수 (모든 인스턴스가 공유하는 변수)
 	static int base =0;
 	int left,right;				// 인스턴스 변수 (각각의 인스턴스가 가지는 변수)- 각각 다르다.
